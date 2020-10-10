@@ -1,0 +1,39 @@
+*{
+  margin: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.youtube__container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons{
+  width: 600px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.back__menu {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
